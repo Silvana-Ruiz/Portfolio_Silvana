@@ -1,0 +1,10 @@
+.project {
+  width: 100%;
+}
+
+.project p {
+  overflow-wrap: break-word;
+
+  width: 90%;
+
+}

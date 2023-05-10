@@ -1,0 +1,59 @@
+:root {
+  --blue: #0081A7;
+  --navy: #002c39;
+
+ 
+  --darkNavy:rgb(1, 33, 43);
+  --aqua: #00AFB9;
+  --beige: #FDFCDC;
+  --orange: #f0c092;
+  --red: #F07167;
+  --purple: #9267f0;
+  --white: #FFFFFF;
+  --mainFont: 'Mukta', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem = 10px*/
+  
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+  height: 100vh;
+  width:100vw;
+  margin: 0;
+  background-color: var(--darkNavy);
+  font-family: var(--mainFont);
+  line-height: 2;
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
