@@ -6,7 +6,7 @@ function Project({project}) {
   console.log(project)
   return (
     <div className="project">
-      <h3>{name} <span>{date}</span></h3>
+      <h3>{name} <span className="date">{date}</span></h3>
       <p>{description}</p>
       <div className="skills">
         {skills.map((skill) => (

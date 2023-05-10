@@ -1,11 +1,10 @@
 import Project from "../Project";
 import { PROJECTS } from "../../data";
-import "./Projects.css"
 
 function Projects() {
 
   return (
-    <div className="projects">
+    <div className="navyContainer">
       <h2>Projects</h2>
       {PROJECTS.map((project) => (
         <Project key={project?.id} project={project} />

@@ -6,13 +6,6 @@
   color: var(--blue);
 }
 
-.project h3 span {
-  font-style: italic;
-  color: var(--white);
-  font-weight: 300;
-  font-size: 1.5rem;
-}
-
 .project p {
   overflow-wrap: break-word;
   width: 90%;

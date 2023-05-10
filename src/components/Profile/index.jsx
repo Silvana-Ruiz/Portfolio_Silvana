@@ -1,4 +1,5 @@
 import Projects from "../Projects";
+import Experience from "../Experience";
 import "./Profile.css";
 
 function Profile() {
@@ -25,7 +26,7 @@ function Profile() {
             </div>
           </section>
 
-          <section className="aboutme">
+          <section className="aboutme navyContainer" >
             <h2>About Me</h2>
             <p>
               Hello World! I am Software Engineer in the making, currently I am
@@ -44,6 +45,12 @@ function Profile() {
           <section className="projects">
             <Projects />
           </section>
+          <section className="experience">
+            <Experience />
+          </section>
+          
+          
+
         </div>
       </div>
     </>
