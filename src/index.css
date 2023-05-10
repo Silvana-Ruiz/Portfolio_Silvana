@@ -1,8 +1,6 @@
 :root {
   --blue: #0081A7;
   --navy: #002c39;
-
- 
   --darkNavy:rgb(1, 33, 43);
   --aqua: #00AFB9;
   --beige: #FDFCDC;
@@ -51,7 +49,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 p {

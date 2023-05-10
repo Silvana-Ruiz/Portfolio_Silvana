@@ -2,9 +2,32 @@
   width: 100%;
 }
 
+.project h3 {
+  color: var(--blue);
+}
+
+.project h3 span {
+  font-style: italic;
+  color: var(--white);
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
 .project p {
   overflow-wrap: break-word;
-
   width: 90%;
+  margin-bottom: 2rem;
+}
 
+.skills {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill {
+  font-size: 1.8rem;
+  background-color: #9267f056;
+  border-radius: 15px;
+  padding: 0 .5rem;
+  margin-right: 1rem;
 }

@@ -4,7 +4,7 @@ import "./Profile.css";
 function Profile() {
   return (
     <>
-      <section className="container">
+      <div className="container">
         <h1 className="name">Silvana Ruiz</h1>
         <div className="grid">
           <img
@@ -13,7 +13,7 @@ function Profile() {
             alt="Silvana Ruiz Image"
           />
 
-          <div className="identity">
+          <section className="identity">
             <div className="details">
               <p>Computer Science Student @ITESM</p>
             </div>
@@ -23,9 +23,9 @@ function Profile() {
             <div className="details">
               <p>Women in STEM Advocate</p>
             </div>
-          </div>
+          </section>
 
-          <div className="aboutme">
+          <section className="aboutme">
             <h2>About Me</h2>
             <p>
               Hello World! I am Software Engineer in the making, currently I am
@@ -39,12 +39,13 @@ function Profile() {
               Moreover, I am a Women-in-STEM advocate and have been working in
               related projects since 2021.
             </p>
-          </div>
+          </section>
+
+          <section className="projects">
+            <Projects />
+          </section>
         </div>
-      </section>
-      <main>
-        <Projects />
-      </main>
+      </div>
     </>
   );
 }
