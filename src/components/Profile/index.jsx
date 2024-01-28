@@ -22,7 +22,7 @@ function Profile() {
               <p>Microsoft Software Engineer Intern</p>
             </div>
             <div className="details">
-              <p>Women in STEM Advocate</p>
+              <p>Women-in-STEM Advocate</p>
             </div>
           </section>
 
